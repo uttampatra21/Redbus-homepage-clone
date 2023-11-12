@@ -745,7 +745,6 @@ ENJOY APP
   color: rgb(29, 29, 29);
   padding: 0.6rem 2rem;
 }
-
 #rtc a {
   padding: 2px 30px;
   font-size: 20px;
@@ -759,18 +758,15 @@ ENJOY APP
   opacity: 0.6;
   font-weight: 400;
 }
-
 .dJVBwd:hover .kuzaPC {
   background: #ccc;
   border-radius: 5px;
 }
-
 #bus--list ul {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   place-items: center;
 }
-
 #bus--list ul li {
   display: flex;
   flex-direction: column;
@@ -781,9 +777,57 @@ ENJOY APP
   padding: 20px;
   border-radius: 20px;
   font-size: 20px;
-  opacity: .8;
+  opacity: 0.8;
 }
-
 .travel-name:hover {
   background-color: #e0dbdb;
+}
+
+/* Footer */
+#footer {
+  background: #f1f1f1;
+  padding: 5vw;
+}
+#footer hr {
+  margin: 2rem 5rem;
+  border: 1px solid #dcdada;
+}
+
+#footer-list--1 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  place-items: center;
+}
+
+#footer-list--container h2 {
+  line-height: 2;
+}
+#footer-list--container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+#footer-list--2 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  place-items: center;
+  padding: 2rem 4rem;
+}
+
+.copyright_social_section {
+  padding: 0rem 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.rb_footer .copyright_social_section .social_section {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.social_section {
+  display: flex;
+  gap: 2rem;
+}
+.social_section img {
+  width: 30px;
 }
