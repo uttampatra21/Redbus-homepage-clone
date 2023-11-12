@@ -602,8 +602,8 @@ ENJOY APP
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
   gap: 5vw;
+  padding-bottom: 5vw;
 }
 
 #slide-3 {
@@ -783,6 +783,15 @@ ENJOY APP
   background-color: #e0dbdb;
 }
 
+
+#contry .kuzaPC {
+  font-size: 1.5rem;
+}
+#contry .hcwFYS img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
 /* Footer */
 #footer {
   background: #f1f1f1;
